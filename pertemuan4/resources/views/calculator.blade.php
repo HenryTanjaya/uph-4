@@ -8,8 +8,8 @@
     <h1>Calculator</h1>
     <form action="calculator" method="post">
       @csrf
-      <input type="text" name="angka1">
-      <input type="text" name="angka2">
+      <input type="text" name="angka1" min="1" required>
+      <input type="text" name="angka2" min="1" required>
       <input type="submit" value="+" name="submit"></input>
       <input type="submit" value="-" name="submit"></input>
       <input type="submit" value="*" name="submit"></input>

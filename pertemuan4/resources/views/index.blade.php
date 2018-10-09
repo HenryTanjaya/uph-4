@@ -8,11 +8,11 @@
     <h1>Index</h1>
     <form action="/" method="post">
       @csrf
-      <input type="text" name="angka[]">
-      <input type="text" name="angka[]">
-      <input type="text" name="angka[]">
-      <input type="text" name="angka[]">
-      <input type="text" name="angka[]">
+      <input type="text" name="angka[]" min="1" required>
+      <input type="text" name="angka[]" min="1" required>
+      <input type="text" name="angka[]" min="1" required>
+      <input type="text" name="angka[]" min="1" required>
+      <input type="text" name="angka[]" min="1" required>
       <input type="submit" name="calculate"></input>
     </form>
 
