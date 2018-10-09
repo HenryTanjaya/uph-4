@@ -32,7 +32,7 @@
       </ul>
     @endif
 
-    <a href="calculator">Calculator</a>
+    <a href={{route('calculator')}}>Calculator</a>
 
   </body>
 </html>

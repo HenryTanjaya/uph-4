@@ -19,5 +19,7 @@
     @if(isset($hasil))
       Hasil = {{$hasil}}
     @endif
+
+    <a href={{route('index')}}>Back</a>
   </body>
 </html>

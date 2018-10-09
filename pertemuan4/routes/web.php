@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/','indexController@index');
+Route::get('/','indexController@index')->name('index');
 Route::post('/','indexController@calculate');
-Route::get('/calculator','calculatorController@index');
+Route::get('/calculator','calculatorController@index')->name('calculator');
 Route::post('/calculator','calculatorController@calculate');
